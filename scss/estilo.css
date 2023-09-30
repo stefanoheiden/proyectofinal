@@ -1,0 +1,369 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* mapa con contacto (CONTACTO) */
+body {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-in {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px #666;
+}
+
+.contact-map {
+  width: 100%;
+  height: auto;
+  flex: 50%;
+}
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-form {
+  width: 100%;
+  height: auto;
+  flex: 50%;
+  padding: 30px;
+  text-align: center;
+}
+.contact-form h1 {
+  margin-bottom: 10px;
+}
+
+.contact-form-txt {
+  width: 100%;
+  height: 40px;
+  color: #000;
+  border: 1px solid #bcbcbc;
+  border-radius: 50px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+.contact-form-txt::-moz-placeholder {
+  color: #bcbcbc;
+}
+.contact-form-txt::placeholder {
+  color: #bcbcbc;
+}
+
+.contact-form-textarea {
+  width: 100%;
+  height: 130px;
+  color: #000;
+  border: 1px solid #bcbcbc;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.contact-form-textarea::-moz-placeholder {
+  color: #6e6e6e;
+}
+.contact-form-textarea::placeholder {
+  color: #6e6e6e;;
+}
+
+.contact-form-btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: #ff4444;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#galeria {
+  font-family: "Poppins", sans-serif;
+}
+#galeria img {
+  width: 100%;
+  height: 320px;
+}
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px;
+}
+#galeria img:hover {
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+}
+
+.parrafoPeq {
+  font-size: 25px;
+}
+
+.galeriaTexto {
+  font-size: 60px;
+}
+
+/* PAGÍNA DE INICIO (HOME) */
+.tamLogo {
+  width: 300px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.btnColor {
+  background-color: rgb(214, 32, 0);
+  color: aliceblue;
+}
+
+.colorBtn:hover {
+  font-family: "Poppins", sans-serif;
+  background-color: brown;
+  font-size: 1.5rem;
+}
+
+/* NOSOTROS */
+.about-us {
+  padding: 60px 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.about-img img {
+  border: 1px solid #000;
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-sub-heading h5 {
+  color: #a30202;
+}
+
+.about-content h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.about-content p {
+  margin-bottom: 30px;
+  color: #6e6e6e;
+}
+
+.about-sub i {
+  width: 40px;
+  height: 40px;
+  background-color: #a30202;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+}
+.about-sub i h6 {
+  font-size: 18px;
+}
+
+.btn1 {
+  padding: 12px 40px;
+  border: 1px solid #a30202;
+  color: #000;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+}
+.btn1:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+a.btn1:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #a30202;
+  transition: 0.5s;
+  z-index: -1;
+}
+a.btn1:hover:before {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+#testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.testimonial-heading {
+  letter-spacing: 1px;
+  margin: 30px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-heading span {
+  font-size: 1.3rem;
+  color: black;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+.testimonial-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.testimonial-box {
+  width: 800px;
+  box-shadow: 2px 2px 30px rgb(41, 41, 41);
+  background-color: white;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 510px;
+}
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left;
+     object-position: left;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.name-user {
+  display: flex;
+  flex-direction: column;
+}
+.name-user strong {
+  color: rgb(231, 12, 12);
+  font-size: 1.3rem;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+}
+.name-user span {
+  color: #6e6e6e;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.reviews {
+  color: yellow;
+}
+
+.box-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.client-comment p {
+  font-size: 1.5rem;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+.testimonial-box:hover {
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+}
+
+@media (max-width: 768px) {
+  .testimonial-box {
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .profile-img {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonial-box {
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .profile-img {
+    margin-right: 10px;
+  }
+}
+
+.card-title {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.tituloProductos {
+  background-color: rgb(236, 236, 236);
+  color: rgb(224, 34, 34);
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.max-width-100 {
+  max-width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=estilo.css.map */
